@@ -11,6 +11,9 @@ mysql -u root // para entrar a MariaDB
 7.- INSERT INTO editorial VALUES ('1235', 'Elite', 'casa', 12345678);
 8.- DROP TABLE nombre_de_tabla; // para eliminar tabla
 9.- DELETE FROM editorial WHERE cod_editorial = el_codigo/el_id; //para elimar dato de la tabla
+	en cmd : poner la ruta : C:\xamp\mysql\bin 
+10.- mysqldump -h localhost -u root uno >C:\uno\usu.sql //para exportar
+11.- mysql -h localhost -u root dos <C:\uno\usu.sql // para impor
 
 creacion de base de datos de tecnologia 
     //tabla lector
