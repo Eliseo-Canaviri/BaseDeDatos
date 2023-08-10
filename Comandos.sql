@@ -14,7 +14,8 @@ mysql -u root // para entrar a MariaDB
 	en cmd : poner la ruta:::::=> cd C:\xampp\mysql\bin 
 10.- mysqldump -h localhost -u root uno >C:\uno\usu.sql //para exportar
 11.- mysql -h localhost -u root dos <C:\uno\usu.sql // para impor
-
+debian //// exportar
+mysqldump -u  root --opt nombrebasededatos>/media/nombredeusb/nombrebasededatos.sql
 creacion de base de datos de tecnologia 
     //tabla lector
 	create TABLE lector(
