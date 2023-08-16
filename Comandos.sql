@@ -77,7 +77,7 @@ creacion de base de datos de tecnologia
     cod_autor char (20),
     FOREIGN KEY(num_prestamo) REFERENCES prestamo(num_prestamo),
     FOREIGN KEY(cod_editorial) REFERENCES editorial(cod_editorial),
-	FOREIGN KEY(cod_especialidad) REFERENCES especialidad(cod_especialidad),
+    FOREIGN KEY(cod_especialidad) REFERENCES especialidad(cod_especialidad),
     FOREIGN KEY(cod_autor) REFERENCES autor(cod_autor));
 
 
